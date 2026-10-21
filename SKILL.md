@@ -51,7 +51,7 @@ description: 产品经理需求 → 交付的标准化五阶段流水线：需�
 
 ## 阶段 5：原型（闸门：用户确认）（→ 可选代码）
 
-**本阶段必须加载并遵循 `prototype-html` 技能**（`~/.workbuddy/skills/prototype-html/SKILL.md`），用它生成**带「原型说明」的原型**。不得再手搓一个只有界面、没有说明的原型。动手前先看该技能的 `assets/example.html` 作为结构参照（分栏比例、连线画法、说明面板分组）。
+**本阶段必须遵循 `prototype-html` 的规范**——规范文件随本仓库提供：[`prototype-html/SKILL.md`](prototype-html/SKILL.md)；若本机已单独安装 `prototype-html` 技能（`~/.workbuddy/skills/prototype-html/`），直接加载已安装版本亦可，两者内容一致。用它生成**带「原型说明」的原型**。不得再手搓一个只有界面、没有说明的原型。动手前先看 [`prototype-html/assets/example.html`](prototype-html/assets/example.html) 作为结构参照（分栏比例、连线画法、说明面板分组）。
 
 ### 5.1 原型形态（由 prototype-html 定义，不得省略）
 - **左右分栏**：左侧 80%~85% = 产品主体界面；右侧 15%~20% = 「原型说明」面板（琥珀色系，与主体视觉区分）。

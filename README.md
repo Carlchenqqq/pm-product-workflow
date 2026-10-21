@@ -49,6 +49,8 @@
 | `SKILL.md` | 技能主定义：五阶段流程、闸门规则、自检清单、迭代回退规则 |
 | `DESIGN-模板.md` | 设计规范模板，阶段 3 据此生成 `DESIGN.md` |
 | `DESIGN.md` | 一份已定稿的 OA 扁平化设计规范，可直接作为起点 |
+| `prototype-html/SKILL.md` | 阶段 5 原型的生成规范（分栏比例、SVG 连线、说明面板分组）|
+| `prototype-html/assets/example.html` | 原型结构参照示例（42 KB，照着它理解布局与连线画法）|
 
 ## 安装
 
@@ -71,12 +73,12 @@ git clone git@github.com:Carlchenqqq/pm-product-workflow.git \
 
 技能会自动从阶段 1 开始，**先听你讲需求，再问问题**，不会一上来就画页面。每一步都会停下来等你确认。
 
-## 配套依赖（可选）
+## 配套依赖
 
-- **阶段 5** 需要 `prototype-html` 技能（提供带说明面板 + SVG 连线的原型骨架）
-- **阶段 4** 默认用 ardot 画布；连不上时会降级为灰阶 HTML 线框
+- **阶段 5 · prototype-html —— 已内置。** 规范与示例都在本仓库 `prototype-html/` 目录里（`SKILL.md` + `assets/example.html`），clone 下来就能用，不需要另外安装。若你本机已单独装过同名技能，用已安装版本也可以，两者内容一致。
+- **阶段 4 · ardot（可选）** —— 默认用 ardot 画布画设计图；连不上时会自动降级为灰阶 HTML 线框，流程照常往下走。
 
-缺这些依赖时流程仍能走，只是对应阶段的产物形式会简化。
+除 ardot 这个可选项外，**本仓库是自包含的**。
 
 ## 兼容性
 
